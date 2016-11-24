@@ -13,9 +13,7 @@
             var response = $http({
                 method: "GET",
                 url: (ApiBasePath + "/menu_items.json"),
-                params: {
-                    category: categoryShortName
-                }
+                params: {category: categoryShortName}
             });
             return response;
         };
